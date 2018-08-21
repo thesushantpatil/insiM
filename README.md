@@ -45,7 +45,7 @@ insiM has been tested with python v2.7.6. It requires ‘pysam’ module in the 
 insiM input parameters in configuration file. 
 
 | Argument		| Value           |
-| ------------- |---------------|
+| ------------------- |---------------|
 | -assay (m)	| Assay type: 'amplicon' or 'capture' (Hybrid Capture) |
 | -bam (m)      | BAM file     |
 | -target (m) | BED file containing target loci. Mutations are introduced at the mid-points of the BED coordinates. For simulating mutation at a specific position, start and end BED coordinates should denote that exact same position.       |
