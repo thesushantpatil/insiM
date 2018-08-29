@@ -1,0 +1,15 @@
+# Mandatory arguments
+assay = capture
+bam = capture.chr22.bam
+target = targets_capture.bed
+mutation = mix
+genome = <Path to the genome FASTA file>
+
+# Conditional/optional arguments.  
+ampliconbed = 
+read = 
+vaf = 
+len = 
+seq = 
+out = 
+

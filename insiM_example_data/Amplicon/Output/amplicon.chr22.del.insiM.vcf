@@ -1,0 +1,19 @@
+##fileformat=VCFv4.1
+##fileDate=2018-08-29 00:00:49
+##source=/scratch/spatil6/insiM_Validation/test/amplicon.chr22.bam
+##reference=file:////group/cgl-molpath-lab/common_resources/Genome_Files/oncoplus_hg19_chrM_viral/new_genome.fa
+##contig=
+##phasing=partial
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FILTER=<ID=q10,Description="Quality below 10">
+##FILTER=<ID=s50,Description="Less than 50% of samples have data">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=HQ,Number=2,Type=Integer,Description="Haplotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	my_sample
+chr22	24134008	.	ACTAGCCACTG	A	.	.	DP=6891;AF=0.508;REF=ACTAGCCACTG;ALT=A;	GT:DP	:
+chr22	24143255	.	ACCTTCCCCCT	A	.	.	DP=7575;AF=0.495;REF=ACCTTCCCCCT;ALT=A;	GT:DP	:
+chr22	24145537	.	CTGGTCCCCAT	C	.	.	DP=9679;AF=0.509;REF=CTGGTCCCCAT;ALT=C;	GT:DP	:
+chr22	24176325	.	CAGGCGGATGA	C	.	.	DP=10017;AF=0.503;REF=CAGGCGGATGA;ALT=C;	GT:DP	:

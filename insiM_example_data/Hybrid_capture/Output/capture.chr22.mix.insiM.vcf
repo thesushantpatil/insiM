@@ -1,0 +1,19 @@
+##fileformat=VCFv4.1
+##fileDate=2018-08-29 01:31:46
+##source=/scratch/spatil6/insiM_Validation/test/capture.chr22.bam
+##reference=file:////group/cgl-molpath-lab/common_resources/Genome_Files/oncoplus_hg19_chrM_viral/new_genome.fa
+##contig=
+##phasing=partial
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FILTER=<ID=q10,Description="Quality below 10">
+##FILTER=<ID=s50,Description="Less than 50% of samples have data">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=HQ,Number=2,Type=Integer,Description="Haplotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	my_sample
+chr22	22123601	.	G	A	.	.	DP=2037;AF=0.084;REF=G;ALT=A;	GT:DP	:
+chr22	24167512	.	CGGAGC	C	.	.	DP=1581;AF=0.416;REF=CGGAGC;ALT=C;	GT:DP	:
+chr22	29121019	.	G	GTTTTCCTTTCCCTAC	.	.	DP=2236;AF=0.317;REF=G;ALT=GTTTTCCTTTCCCTAC;	GT:DP	:
+chr22	41553259	.	G	GCTGC	.	.	DP=2280;AF=0.222;REF=G;ALT=GCTGC;	GT:DP	:

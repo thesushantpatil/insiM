@@ -44,7 +44,7 @@ insiM has been tested with python v2.7.6. It requires ‘pysam’ module in the 
 
 insiM input parameters in configuration file. 
 
-| Argument		| Value           |
+| Argument &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;	| Value           |
 | ------------------- |---------------|
 | -assay (m)	| Assay type: 'amplicon' or 'capture' (Hybrid Capture) |
 | -bam (m)      | BAM file     |
@@ -61,3 +61,13 @@ insiM input parameters in configuration file.
 m = mandatory, o = optional
 
 ### FAQs
+
+
+**Q. Why doesn't insiM outputted VAF for a mutation exactly match the input VAF?**
+
+**A.** insiM extracts uniquely mapped reads at each specified mutation locus randomly, based on the specified variant frequency. The slight deviations between input and output VAFs are attributed due to random sampling of the fragmented reads in hybrid capture assays. Such deviations are more pronounced at lower depths because of low sampling. At high depths, because of the law of large numbers, such a deviation decreases.
+Addionally, insiM works by evaluating reads in the context of their pairs and mutating one or both reads based on the overlap at the mutation position. As shown in the figure above, for example, if both read mates of a pair overlap the mutation locus, then both will be altered. Therefore, insiM outputted VAF for a mutatation locus for a sample may not always be the same with repreated simulations. In such a case, the variability arises due to whether one or both reads at the mutation locus get selected for mutation by the random probability function. 
+
+
+
+
