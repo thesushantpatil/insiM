@@ -10,7 +10,7 @@ Sabah Kadri: skadri@bsd.uchicago.edu
 
 ### Publication (please cite if using software):
 
-Currently in press at Journal of Molecular Diagnostics. 
+Patil, Sushant A., et al. "insiM: in silico mutator software for bioinformatics pipeline validation of clinical next-generation sequencing assays." The Journal of Molecular Diagnostics 21.1 (2019): 19-26. 
 
 
 ### Introduction 
