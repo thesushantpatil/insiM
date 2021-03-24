@@ -4,7 +4,7 @@
 
 ### Contact
 
-Sushant Patil: spatil6@bsd.uchicago.edu
+Sushant Patil: sushantp@email.unc.edu
 
 Sabah Kadri: skadri@bsd.uchicago.edu
 
